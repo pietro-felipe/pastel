@@ -1,14 +1,19 @@
+*{
+ margin: 0 ;
+ padding: 0 ;
+}
+
 .cabecalho{
     background-color:darkred;
     color:rgb(200, 0, 250);
     display:flex;
     justify-content:space-around;
-    padding: 240px 0;
-    font-size: 50px;
+    padding: 30px 5;
+    font-size: 20px;
 }
 
 .cabecalholistaItem{
 display:inline-block;
-margin: 0 120px;
-padding: 78px 0;
+margin: 20 3px;
+padding: 75px 0;
 }
