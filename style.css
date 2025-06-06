@@ -1,19 +1,40 @@
 *{
- margin: 0 ;
- padding: 0 ;
+    margin: 0;
+    padding:0;
 }
 
 .cabecalho{
-    background-color:darkred;
-    color:rgb(200, 0, 250);
-    display:flex;
-    justify-content:space-around;
-    padding: 30px 5;
-    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    color:aqua;
+    display: flex;
+    justify-content: space-around; 
+    padding: 24px 0;
+    font-size: 15px;
 }
 
-.cabecalholistaItem{
-display:inline-block;
-margin: 20 3px;
-padding: 75px 0;
+.cabecalhoListaItem{
+    display:inline-block;
+    margin: 0 12px;
+    padding: 5px 0; 
+}
+
+.sobreImagem{
+           width: 30%;
+}
+
+.sobre{
+        background-image: linear-gradient(#e12020, #FFFFFF);
+        color: orange;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+       padding: 37px 50px;
+}
+
+.sobreConteudo{
+        width: 40%;
+}
+
+.sobreTitulo{
+         padding: 10px 15px;
 }
