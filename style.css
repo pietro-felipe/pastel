@@ -4,18 +4,18 @@
 }
 
 .cabecalho{
-    background-color: rgb(255, 0, 0);
-    color:aqua;
+    background-color: #c58000;
+    color:rgb(0, 0, 0);
     display: flex;
     justify-content: space-around; 
-    padding: 24px 0;
+    padding: 20px 5;
     font-size: 15px;
 }
 
 .cabecalhoListaItem{
     display:inline-block;
-    margin: 0 12px;
-    padding: 5px 0; 
+    margin: 20 20px;
+    padding: 15px 0; 
 }
 
 .sobreImagem{
@@ -23,8 +23,8 @@
 }
 
 .sobre{
-        background-image: linear-gradient(#e12020, #FFFFFF);
-        color: orange;
+        background-image: linear-gradient(#c58000, #fffef9);
+        color: rgb(0, 0, 0);
         display: flex;
         justify-content: center;
        align-items: center;
@@ -36,5 +36,5 @@
 }
 
 .sobreTitulo{
-         padding: 10px 15px;
+         padding: 10px 50px;
 }
