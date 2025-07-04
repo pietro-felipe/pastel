@@ -23,12 +23,12 @@
 }
 
 .sobre{
-        background-image: linear-gradient(#c58000, #fffef9);
+        background-image: linear-gradient(#ffffff, #ff0000);
         color: rgb(0, 0, 0);
         display: flex;
         justify-content: center;
        align-items: center;
-       padding: 37px 50px;
+       padding: 200px 50px;
 }
 
 .sobreConteudo{
@@ -37,4 +37,53 @@
 
 .sobreTitulo{
          padding: 10px 50px;
+}
+.membroImagem{
+width:120px;
+}
+
+.membroIcone{
+width: 24px;
+}
+
+.membroDiv{
+text-align: center;
+}
+
+.membrosTitulo{
+text-align:center;
+padding: 50px 0;
+}
+
+.membroImagem{
+width:120px;
+}
+
+.membroIcone{
+width: 24px;
+}
+
+.membroDiv{
+text-align: center;
+}
+
+.membrosTitulo{
+text-align:center;
+padding: 50px 0;
+}
+
+.membrosTodos{
+display: grid;
+/*Transforma o display em quadrados*/
+grid-template-columns: 10% 20% 20% 20% 20% 10%;
+/*Quanto cada coluna ocupa na página, em sequência*/
+}
+
+.membroDiv{
+text-align:center;
+padding-bottom: 34px;
+}
+
+.membros{
+background-color: rgb(255, 0, 0);
 }
